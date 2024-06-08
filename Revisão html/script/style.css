@@ -1,5 +1,24 @@
-main{
+#main{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-items: center;
+    flex-direction: column;
+}
+.pt1{
+    display: flex;
+    justify-content: start;
+    width: 73%;
+}
+
+.pt2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.form{
+    position: relative;
+    left: 350px;
+    top: 50px;
 }
