@@ -20,5 +20,71 @@
 .form{
     position: relative;
     left: 350px;
-    top: 50px;
+    top: 0px;
+    border: solid;
+    border-radius: 15px;
+    padding: 4px;
+    border-color: #1C0330;
+    color: #8E0FF0;
+    cursor: text;
+    background-color: #1C0330;
+}
+body{
+    background-color: #BF77F6;
+}
+h1{
+    background-color: #560990;
+    border-color: #560990;
+    border: solid;
+    border-radius: 15px;
+    font-size: 18;
+    color:#8E0FF0;
+}
+footer{
+    background-color: #1A0728;
+    color: #560990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18;
+    border: solid;
+    border-radius: 15px;
+    border-color: #1A0728;
+    background-color: #1C0330;
+}
+table{
+    border: solid;
+    border-radius: 15px;
+    padding: 4px;
+    border-color: #1C0330;
+    color: #8E0FF0;
+    background-color: #1C0330;
+}
+iframe{
+    border: solid;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 8px;
+    border-color: #1C0330;
+    background-color: #1C0330;
+}
+
+.imagem{
+    border: solid;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 8px;
+    border-color: #1C0330;
+    background-color: #1C0330;
+    position: relative; bottom:10px;
+}
+button{
+    background-color: #560990;
+    color: #1A0728;
+    border: none;
+    padding: 10 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
 }
